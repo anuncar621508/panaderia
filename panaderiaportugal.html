@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Panadería</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos CSS para el menú y la estructura */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(../pan2.jpg);
+        }
+        header {
+            background-color: #f5e4c9; /* Color de fondo del menú */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        div ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        div ul li {
+            margin-right: 20px;
+            list-style: none;
+        }
+        .content {
+            padding: 20px;
+        }
+
+        h1 {
+            margin-right: 60%;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MIGAS AMIGAS</h1>
+        <div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#productos">Produtos</a></li>
+                <li><a href="#nosotros">Sobre Nós</a></li>
+                <li><a href="#contacto">Contato</a></li>
+                <li><a href="#spain"><img src="spain.jpg" alt="Espanha"></a></li>
+                <li><a href="#"><img src="portugal.jpg" alt="Portugal"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+        <section id="inicio">
+            <h2>Bem-vindo à Sua Padaria</h2>
+            <p>Pães e bolos deliciosos frescos todos os dias.</p>
+            <a href="#productos" class="cta-button">Ver produtos</a>
+        </section>
+
+        <section id="productos">
+            <h2>Nossos Produtos</h2>
+            <div class="productos-grid">
+                <!-- Aqui você pode listar seus produtos com imagens e descrições -->
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma padaria dedicada a oferecer produtos de alta qualidade.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contato</h2>
+            <p>Estamos localizados em:</p>
+            <address>
+                Endereço da padaria<br>
+                Cidade, País<br>
+                Telefone: (123) 456-7890<br>
+                Email: info@sua-padaria.com
+            </address>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Sua Padaria</p>
+    </footer>
+</body>
+</html>

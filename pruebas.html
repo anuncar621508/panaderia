@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Panadería</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos CSS para el menú y la estructura */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(../pan2.jpg);
+        }
+        header {
+            background-color: #f5e4c9; /* Color de fondo del menú */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        div ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        div ul li {
+            margin-right: 20px;
+            list-style: none;
+        }
+        .content {
+            padding: 20px;
+        }
+
+        h1 {
+            margin-right: 60%;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MIGAS AMIGAS</h1>
+        <div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#spain"><img src="spain.jpg"</a></li>
+                <li><a href="#"><img src="portugal.jpg"</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="content">
+        <section id="inicio">
+            <h2>Bienvenido a Tu Panadería</h2>
+            <p>Deliciosos panes y pasteles frescos todos los días.</p>
+            <a href="#productos" class="cta-button">Ver productos</a>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-grid">
+                <!-- Aquí puedes listar tus productos con imágenes y descripciones -->
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una panadería dedicada a ofrecer productos de alta calidad.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Estamos ubicados en:</p>
+            <address>
+                Dirección de la panadería<br>
+                Ciudad, País<br>
+                Teléfono: (123) 456-7890<br>
+                Correo Electrónico: info@tupanaderia.com
+            </address>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Tu Panadería</p>
+    </footer>
+</body>
+</html>
+
